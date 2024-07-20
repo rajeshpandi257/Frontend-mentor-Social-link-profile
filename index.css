@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+}
+.container {
+  position: relative;
+  left: 40%;
+  margin-top: 5%;
+  background-color: hsl(0, 0%, 12%);
+  width: 300px;
+  height: 400px;
+  align-items: center;
+  border-radius: 10px;
+}
+.container img {
+  width: 60px;
+  border-radius: 50px;
+  position: absolute;
+  left: 40%;
+  top: 5%;
+}
+.content {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  width: 100%;
+  line-height: 25px;
+}
+.content h1 {
+  font-size: 18px;
+  color: white;
+}
+.content h4 {
+  color: hsl(75, 94%, 57%);
+  font-size: 12px;
+}
+.content h3 {
+  font-size: 15px;
+}
+.section {
+  position: relative;
+  width: 100%;
+}
+.section h3 {
+  position: absolute;
+  margin-top: 55%;
+  width: 100%;
+  left: 14%;
+  color: white;
+  font-size: 12px;
+}
+
+.section .group {
+  position: absolute;
+  margin-top: 65%;
+  left: 7%;
+  gap: 7px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.group button {
+  padding: 7px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+  outline: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  color: black;
+  transition: 0.5s ease-in;
+}
